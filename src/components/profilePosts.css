@@ -1,0 +1,62 @@
+.profile-posts-container {
+    display: flex;
+    width: 100%;
+    margin-top: 32px; /* Ajustar el margen según sea necesario */
+  }
+  
+  .profile-posts-left {
+    width: 35%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-posts-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-posts-right {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+  
+  .profile-posts-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 12px; /* Ajustar el margen según sea necesario */
+  }
+  
+  .profile-posts-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px; /* Ajustar el margen según sea necesario */
+  }
+  
+  .profile-posts-username {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #777;
+  }
+  
+  .profile-posts-date {
+    display: flex;
+    gap: 8px;
+    font-size: 0.75rem;
+  }
+  
+  .profile-posts-description {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 8px; /* Ajustar el margen según sea necesario */
+  }
+  
+  .profile-posts-read-more {
+    color: blue;
+    cursor: pointer;
+    margin-left: 4px; /* Ajustar el margen según sea necesario */
+  }

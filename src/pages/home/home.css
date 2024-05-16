@@ -1,0 +1,26 @@
+.loader-container {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-posts-container {
+    padding: 0 8px;
+  }
+  
+  @media (min-width: 768px) {
+    .home-posts-container {
+      padding: 0 200px;
+    }
+  }
+  
+  .no-posts-message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+
+  .home-posts-container {
+    min-height: 80vh;
+  }
